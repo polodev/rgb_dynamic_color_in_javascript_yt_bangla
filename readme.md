@@ -34,7 +34,7 @@ parseInt(Math.random() * 5)
 ~~~
 
 ## style in js
-using `element.style` object we can style our html document in javascript. In css, we are using `background-color` as css property. But in js `hyphen (-)` treated as `arithmetic operator`. So instead of `background-color` we will use cameCase version 'backgroundColor'. Same goes to similar css properties like `fontFamily`     
+using `element.style` object we can style our html document in javascript. In css, we are using `background-color` as css property. But in js `hyphen (-)` treated as `arithmetic operator`. So instead of `background-color` in js we have to use cameCase version 'backgroundColor'. Same goes to similar css properties like `fontFamily`     
 
 ~~~php
 body.style.backgroundColor = 'red';
